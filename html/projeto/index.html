@@ -1,0 +1,107 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <title>Projeto de Site</title>
+
+    </head>
+    
+    <header>
+        <div id="navegacao">
+            <nav> <a href="index.html">Início</a>  <a href="#mensagens-site">Contato</a> <a href="#autor">Autor</a>  </nav>
+        </div>
+        <img src="img/topo.png" >
+        
+    </header>
+
+    <body>
+        <div class="conteudo">    
+            <h1>Primeira Página</h1><hr>
+            
+            <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7XdDY5T5l0M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <figure>
+                <a href="https://goo.gl/SQ1BFD">
+                    <img src="img/logica.png" alt="Logica">
+                </a>
+                
+                <img src="img/games.png" alt="Games">
+                
+                <a href="https://goo.gl/fjHna8">
+                    <img src="img/office.png" alt="Office">
+                </a>
+            </figure>
+            
+            <h2>Importância da Informática</h2>
+            
+            <section>
+                <p>
+                    Ter conhecimentos em informática básica é uma competência essencial. 
+                    Com a expansão do uso das tecnologias e a digitalização dos dados, 
+                    conhecer os conceitos fundamentais desse segmento é cada vez mais 
+                    necessário. Além disso, essa habilidade pode ser um diferencial no 
+                    mercado de trabalho.<br>
+                    
+                    Há vários cursos gratuitos de informática básica segmentados por níveis 
+                    e assuntos. Eles são ofertados por instituições públicas e privadas e 
+                    podem ser encontrados em quase todas as cidades do Brasil. Para quem já 
+                    tem um conhecimento mínimo, também é interessante procurar cursos online 
+                    em sites educativos ou no YouTube para aperfeiçoar as habilidades.<br> 
+                    
+                    Fazer um curso de informática básica abre novos caminhos no mercado de trabalho 
+                    e várias empresas só contratam pessoas que tenham conhecimento mínimo sobre 
+                    computadores. Você pode optar por um curso de informática básica ou, ainda, por 
+                    cursos técnicos ou de graduação como o de Ciências da Computação ou Informática.<br>
+                </p>
+            </section>
+        </div>
+
+        <figure id="autor">
+            <img class="img-geral" src="img/autor.jpg" alt="Matheus Alves">
+            <figcaption>
+                <h3>Matheus Alves - Estudante de Engenharia de Computação</h3>
+                <p id="autor">
+                        Sou estudante na área de Tecnologia e também apaixonado por games e cinema.<br>
+
+                        Graduando em Engenharia de Computação, atualmente no quinto período.<br>
+                        
+                        Atualmente faço estágio na empresa Studio Sol, onde desenvolvemos os produtos 
+                        CifraClub e PalcoMP3.<br>
+                        
+                        Tenho grande prazer em estudar, ajudar os outros e adquirir novas habilidades.<br>
+                </p>
+            </figcaption>
+        </figure>
+        
+        <br>
+        
+        <form method="POST" id="mensagens-site" action="mailto:malvgomes@gmail.com"> <!-- Envio de informações -->
+            <fieldset> <!-- Campo de Forms-->
+                <legend>Envie sua mensagem</legend> <!-- "Título do form" -->
+                
+                <label for="cnome">NOME</label><br> <!-- label for faz uma referencia a cnome (identifica nos dispositivos moveis, ao clicar em NOME, vai para o campo) -->
+                <input type="text" name="nome" id="cnome" placeholder="Digite seu nome completo"><br><br>
+                
+                <label for="email">E-MAIL</label><br>
+                <input type="email" name="e-mail" id="email" placeholder="Digite seu e-mail completo"><br><br>
+
+                <label for="msg">MENSAGEM</label><br>
+                <textarea name="mensagem" id="msg" placeholder="Digite aqui a sua mensagem" cols="45" rows="5"></textarea><br><br>
+            
+                <input type="submit" name="botao" value="Enviar">
+            </fieldset>
+        </form>
+        <br>
+
+    </body>
+
+    <footer>
+        <div id="rodape">
+            <h6>Matheus Alves &copy; Todos os direitos reservados</h6>
+        </div>
+    </footer>
+</html>
